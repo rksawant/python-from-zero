@@ -2,7 +2,7 @@
 
 A first Python course for someone who has not programmed before. The lessons are Jupyter notebooks. Each one explains a word the first time it appears, then asks you to try one small step.
 
-You start by learning what Jupyter is and how a notebook runs. Then you store values, work with text, keep several values together, make choices, repeat steps, and name a group of steps. The last notebook is a small contact list you finish one cell at a time.
+You start by learning what Jupyter is and how a notebook runs. Then you store values, work with text, keep several values together, make choices, repeat steps, and name a group of steps. You build a contact list, then learn files, errors, and modules so that list can be saved and opened again.
 
 ## Read this before you type anything
 
@@ -151,6 +151,11 @@ Work in this order:
 5. `05-conditionals-and-loops.ipynb` — choices and repetition
 6. `06-functions.ipynb` — naming a group of lines so you can run it again
 7. `07-contact-list.ipynb` — a small contact list you finish one cell at a time
+8. `08-files.ipynb` — read a text file, write a text file, and close it with `with`
+9. `09-errors.ipynb` — `try` and `except` when a file is missing or a value is wrong
+10. `10-modules.ipynb` — `import`, and `pathlib` and `datetime` from the standard library
+11. `11-csv.ipynb` — save and load the contact list with the `csv` module
+12. `12-saved-contacts.ipynb` — files, errors, and the contact list in one small project
 
 Inside a lesson, run code cells with Shift+Enter and read the output under the cell. Sample answers are folded cells under the heading **Solution**. Try the step before you unfold the answer. The first notebook shows how to unfold one.
 
