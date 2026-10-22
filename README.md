@@ -156,6 +156,7 @@ Work in this order:
 10. `10-modules.ipynb` — `import`, and `pathlib` and `datetime` from the standard library
 11. `11-csv.ipynb` — save and load the contact list with the `csv` module
 12. `12-saved-contacts.ipynb` — files, errors, and the contact list in one small project
+13. `13-json.ipynb` — save and load the contact list with the `json` module
 
 Inside a lesson, run code cells with Shift+Enter and read the output under the cell. Sample answers are folded cells under the heading **Solution**. Try the step before you unfold the answer. The first notebook shows how to unfold one.
 
