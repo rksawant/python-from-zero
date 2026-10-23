@@ -122,7 +122,7 @@ This lets scripts run in this window only. Closing the window clears the setting
 pip install -r requirements.txt
 ```
 
-This uses `pip`, Python's installer, to read `requirements.txt` and install JupyterLab and the notebook kernel. A **kernel** is the part of Jupyter that runs the code in a notebook. The first lesson explains the kernel again, more slowly. The same command works in Windows PowerShell. The installer prints many lines. When it finishes, you get a fresh line starting with `(.venv)`.
+This uses `pip`, Python's installer, to read `requirements.txt` and install JupyterLab, the notebook kernel, FastAPI, httpx, httpx2, and uvicorn. A **kernel** is the part of Jupyter that runs the code in a notebook. The first lesson explains the kernel again, more slowly. The same command works in Windows PowerShell. The installer prints many lines. When it finishes, you get a fresh line starting with `(.venv)`.
 
 ## 7. Start JupyterLab
 
@@ -157,6 +157,7 @@ Work in this order:
 11. `11-csv.ipynb` — save and load the contact list with the `csv` module
 12. `12-saved-contacts.ipynb` — files, errors, and the contact list in one small project
 13. `13-json.ipynb` — save and load the contact list with the `json` module
+14. `14-fastapi.ipynb` — return the contact list and add a person with FastAPI
 
 Inside a lesson, run code cells with Shift+Enter and read the output under the cell. Sample answers are folded cells under the heading **Solution**. Try the step before you unfold the answer. The first notebook shows how to unfold one.
 
