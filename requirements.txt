@@ -2,5 +2,4 @@ jupyterlab
 ipykernel
 fastapi
 httpx
-httpx2
 uvicorn
