@@ -158,6 +158,8 @@ Work in this order:
 12. `12-saved-contacts.ipynb` — files, errors, and the contact list in one small project
 13. `13-json.ipynb` — save and load the contact list with the `json` module
 14. `14-fastapi.ipynb` — return the contact list and add a person with FastAPI
+15. `15-routes.ipynb` — put contacts and products on routers and include them in the app
+16. `16-models.ipynb` — two Pydantic models for the product that is sent and the product that comes back
 
 Inside a lesson, run code cells with Shift+Enter and read the output under the cell. Sample answers are folded cells under the heading **Solution**. Try the step before you unfold the answer. The first notebook shows how to unfold one.
 

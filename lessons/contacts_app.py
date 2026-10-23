@@ -1,18 +1,6 @@
 from fastapi import FastAPI
+from routes import router, product_router
 
 app = FastAPI()
-contacts = [
-    {"name": "Sam", "phone": "555-0100", "city": "Lagos"},
-    {"name": "Mina", "phone": "555-0142", "city": "Seoul"},
-]
-
-
-@app.get("/contacts")
-def list_contacts():
-    return contacts
-
-
-@app.post("/contacts")
-def add_contact(contact: dict):
-    contacts.append(contact)
-    return contact
+app.include_router(router)
+app.include_router(product_router)
