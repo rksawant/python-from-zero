@@ -1,0 +1,6 @@
+jupyterlab
+ipykernel
+fastapi
+httpx
+uvicorn
+pymongo
