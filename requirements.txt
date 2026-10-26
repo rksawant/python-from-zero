@@ -3,3 +3,4 @@ ipykernel
 fastapi
 httpx
 uvicorn
+pymongo

@@ -122,7 +122,7 @@ This lets scripts run in this window only. Closing the window clears the setting
 pip install -r requirements.txt
 ```
 
-This uses `pip`, Python's installer, to read `requirements.txt` and install JupyterLab, the notebook kernel, FastAPI, httpx, and uvicorn. A **kernel** is the part of Jupyter that runs the code in a notebook. The first lesson explains the kernel again, more slowly. The same command works in Windows PowerShell. The installer prints many lines. When it finishes, you get a fresh line starting with `(.venv)`.
+This uses `pip`, Python's installer, to read `requirements.txt` and install JupyterLab, the notebook kernel, FastAPI, httpx, uvicorn, and pymongo. A **kernel** is the part of Jupyter that runs the code in a notebook. The first lesson explains the kernel again, more slowly. The same command works in Windows PowerShell. The installer prints many lines. When it finishes, you get a fresh line starting with `(.venv)`.
 
 ## 7. Start JupyterLab
 
@@ -160,6 +160,19 @@ Work in this order:
 14. `14-fastapi.ipynb` — return the contact list and add a person with FastAPI
 15. `15-routes.ipynb` — put contacts and products on routers and include them in the app
 16. `16-models.ipynb` — two Pydantic models for the product that is sent and the product that comes back
+17. `17-mongodb.ipynb` — install MongoDB on Windows, see a running server, and open a pymongo connection
+18. `18-database.ipynb` — create the python_course database and the products collection
+19. `19-insert-and-find.ipynb` — insert_one, insert_many, find, and find_one
+20. `20-comparison.ipynb` — compare fields with $eq, $ne, $gt, $gte, $lt, $lte, $in, and $nin
+21. `21-logical.ipynb` — $and, $or, $not, $nor, and a filter with more than one condition
+22. `22-dicts.ipynb` — dict functions: keys, values, items, get, update, pop, popitem, setdefault, clear, copy, fromkeys
+23. `23-tuples.ipynb` — tuples, packing, unpacking, count, index, and why a tuple cannot be changed
+24. `24-sets.ipynb` — add, update, remove, discard, pop, union, intersection, difference, symmetric_difference, issubset, issuperset
+25. `25-range.ipynb` — range(stop), range(start, stop), range(start, stop, step), with for and list
+26. `26-sort-limit-skip.ipynb` — sort, limit, and skip on a find cursor
+27. `27-list-fields.ipynb` — a list field, with $size, $regex, $all, and $elemMatch
+28. `28-find-operators.ipynb` — a short catalog of the other find operators
+29. `29-update.ipynb` — update_one, update_many, $set, and a filter with more than one condition
 
 Inside a lesson, run code cells with Shift+Enter and read the output under the cell. Sample answers are folded cells under the heading **Solution**. Try the step before you unfold the answer. The first notebook shows how to unfold one.
 
