@@ -5,3 +5,6 @@ httpx
 uvicorn
 pymongo
 groq
+langchain-core
+langchain-text-splitters
+streamlit
