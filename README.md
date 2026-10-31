@@ -122,7 +122,7 @@ This lets scripts run in this window only. Closing the window clears the setting
 pip install -r requirements.txt
 ```
 
-This uses `pip`, Python's installer, to read `requirements.txt` and install JupyterLab, the notebook kernel, FastAPI, httpx, uvicorn, and pymongo. A **kernel** is the part of Jupyter that runs the code in a notebook. The first lesson explains the kernel again, more slowly. The same command works in Windows PowerShell. The installer prints many lines. When it finishes, you get a fresh line starting with `(.venv)`.
+This uses `pip`, Python's installer, to read `requirements.txt` and install JupyterLab, the notebook kernel, FastAPI, httpx, uvicorn, pymongo, groq, the LangChain core library, the LangChain text splitters, and Streamlit. A **kernel** is the part of Jupyter that runs the code in a notebook. The first lesson explains the kernel again, more slowly. The same command works in Windows PowerShell. The installer prints many lines. When it finishes, you get a fresh line starting with `(.venv)`.
 
 ## 7. Start JupyterLab
 
@@ -173,6 +173,19 @@ Work in this order:
 27. `27-list-fields.ipynb` — a list field, with $size, $regex, $all, and $elemMatch
 28. `28-find-operators.ipynb` — a short catalog of the other find operators
 29. `29-update.ipynb` — update_one, update_many, $set, and a filter with more than one condition
+30. `30-one-line-if.ipynb` — a one-line if/else
+31. `31-lambda.ipynb` — a function written on one line
+32. `32-one-line-for.ipynb` — a one-line for with an if
+33. `33-filter-and-map.ipynb` — filter and map
+34. `34-inheritance.ipynb` — multiple inheritance and multilevel inheritance
+35. `35-generators.ipynb` — yield and next
+36. `36-system-prompt.ipynb` — a system prompt, a zero-shot example, and a few-shot example
+37. `37-copilot-guardrails.ipynb` — guardrails that keep Copilot inside that prompt
+38. `38-groq.ipynb` — a small Groq program that reads GROQ_API_KEY from the environment
+39. `39-chunking.ipynb` — fixed, overlap, sentence, paragraph, and semantic chunks
+40. `40-embeddings.ipynb` — embeddings and a small vector database
+41. `41-langchain-rag.ipynb` — document, chunks, embeddings, search, then the prompt to the model
+42. `42-streamlit.ipynb` — a small Streamlit page
 
 Inside a lesson, run code cells with Shift+Enter and read the output under the cell. Sample answers are folded cells under the heading **Solution**. Try the step before you unfold the answer. The first notebook shows how to unfold one.
 
