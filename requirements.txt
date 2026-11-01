@@ -8,3 +8,5 @@ groq
 langchain-core
 langchain-text-splitters
 streamlit
+langgraph
+pinecone
