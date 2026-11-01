@@ -122,7 +122,7 @@ This lets scripts run in this window only. Closing the window clears the setting
 pip install -r requirements.txt
 ```
 
-This uses `pip`, Python's installer, to read `requirements.txt` and install JupyterLab, the notebook kernel, FastAPI, httpx, uvicorn, pymongo, groq, the LangChain core library, the LangChain text splitters, and Streamlit. A **kernel** is the part of Jupyter that runs the code in a notebook. The first lesson explains the kernel again, more slowly. The same command works in Windows PowerShell. The installer prints many lines. When it finishes, you get a fresh line starting with `(.venv)`.
+This uses `pip`, Python's installer, to read `requirements.txt` and install JupyterLab, the notebook kernel, FastAPI, httpx, uvicorn, pymongo, groq, the LangChain core library, the LangChain Groq package, the LangChain text splitters, and Streamlit. A **kernel** is the part of Jupyter that runs the code in a notebook. The first lesson explains the kernel again, more slowly. The same command works in Windows PowerShell. The installer prints many lines. When it finishes, you get a fresh line starting with `(.venv)`.
 
 ## 7. Start JupyterLab
 
@@ -186,6 +186,11 @@ Work in this order:
 40. `40-embeddings.ipynb` — embeddings and a small vector database
 41. `41-langchain-rag.ipynb` — document, chunks, embeddings, search, then the prompt to the model
 42. `42-streamlit.ipynb` — a small Streamlit page
+43. `43-prompts-and-groq.ipynb` — prompts and a Groq chat model
+44. `44-templates-and-parsers.ipynb` — prompt templates and output parsers
+45. `45-documents-and-splitters.ipynb` — documents, loaders, and text splitters
+46. `46-embeddings-and-search.ipynb` — embeddings, a vector store, and similarity search
+47. `47-retrieval-chain.ipynb` — a retrieval chain that sends the question and the chunks to Groq
 
 Inside a lesson, run code cells with Shift+Enter and read the output under the cell. Sample answers are folded cells under the heading **Solution**. Try the step before you unfold the answer. The first notebook shows how to unfold one.
 

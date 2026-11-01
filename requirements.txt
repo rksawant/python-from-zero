@@ -6,5 +6,6 @@ uvicorn
 pymongo
 groq
 langchain-core
+langchain-groq
 langchain-text-splitters
 streamlit
