@@ -122,7 +122,7 @@ This lets scripts run in this window only. Closing the window clears the setting
 pip install -r requirements.txt
 ```
 
-This uses `pip`, Python's installer, to read `requirements.txt` and install JupyterLab, the notebook kernel, FastAPI, httpx, uvicorn, pymongo, groq, the LangChain core library, the LangChain text splitters, Streamlit, LangGraph, and Pinecone. A **kernel** is the part of Jupyter that runs the code in a notebook. The first lesson explains the kernel again, more slowly. The same command works in Windows PowerShell. The installer prints many lines. When it finishes, you get a fresh line starting with `(.venv)`.
+This uses `pip`, Python's installer, to read `requirements.txt` and install JupyterLab, the notebook kernel, FastAPI, httpx, uvicorn, pymongo, groq, the LangChain core library, the LangChain text splitters, and Streamlit. A **kernel** is the part of Jupyter that runs the code in a notebook. The first lesson explains the kernel again, more slowly. The same command works in Windows PowerShell. The installer prints many lines. When it finishes, you get a fresh line starting with `(.venv)`.
 
 ## 7. Start JupyterLab
 
@@ -186,10 +186,6 @@ Work in this order:
 40. `40-embeddings.ipynb` — embeddings and a small vector database
 41. `41-langchain-rag.ipynb` — document, chunks, embeddings, search, then the prompt to the model
 42. `42-streamlit.ipynb` — a small Streamlit page
-43. `43-interview-tools.ipynb` — how to describe FastAPI, LangChain, LangGraph, Gen AI, Agentic AI, and Pinecone
-44. `44-langgraph.ipynb` — a product agent with state, a tool, and a conditional edge
-45. `45-pinecone.ipynb` — embeddings, an index, upsert, and similarity search
-46. `46-agent-loop.ipynb` — plan, tool call, observe, and answer
 
 Inside a lesson, run code cells with Shift+Enter and read the output under the cell. Sample answers are folded cells under the heading **Solution**. Try the step before you unfold the answer. The first notebook shows how to unfold one.
 
